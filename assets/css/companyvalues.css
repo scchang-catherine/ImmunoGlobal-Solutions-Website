@@ -1,0 +1,275 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Home*/
+#navigation_bar_container {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    background-color: #9FEFE0;
+    color: rgba(0, 0, 0, 0.76);
+    text-align: center;
+    padding-top: 15px;
+    z-index: 900;
+}
+
+.navigation_button {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: #4C4747;
+}
+
+#chicken_pic {
+    text-align: right;
+    margin-top: 60px;
+}
+
+#company_introduction {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.64);
+    width: 700px;
+    padding: 40px;
+    top: 25%;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.39);
+}
+#who_are_we {
+    color: white;
+    font-size: 25px;
+}
+
+#company_title {
+    color: white;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#company-description {
+    color: white;
+    line-height: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #4C4747 ;
+}
+
+a:hover{
+  cursor: pointer;
+  color: white;
+}
+
+/*Company Values*/
+
+#ourvalues {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 60;
+    font-weight: 400;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #FFFFDE;
+    box-shadow: 4px 8px 4px 4px rgba(0, 0, 0, 0.23);
+    letter-spacing: 7px;
+}
+.rectangle {
+    background-color: #404040;
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 17%;
+}
+
+#three-val-container {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    text-align: center;
+}
+
+.navigation_button:hover {
+  cursor: pointer;
+  color: white;
+}
+
+#circle-container {
+    position: relative;
+    top: 140;
+    left: 44.5%;
+    width: 100px;
+}
+
+.circle {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    /* top: 0px; */
+    left: 50px;
+    opacity: 0.3;
+    z-index: 400;
+}
+
+.circle:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#ourvaluephoto1 {
+    position: relative;
+    text-align: center;
+    top: -60px;
+}
+
+#ourvaluephoto2 {
+    position: relative;
+    text-align: left;
+    top: -330;
+    /* opacity: 0.7; */
+}
+
+#ourvaluephoto3 {
+    position: relative;
+    text-align: right;
+    top: -600;
+    /* opacity: 0.7; */
+}
+
+#ourvaluetext {
+    position: absolute;
+    font-size: 40;
+    right: calc(50%- 212px);
+    top: 110px;
+    font-weight: 900;
+    /* opacity: 0.6; */
+    z-index: 1000;
+}
+
+#ourvalues {
+    height: 150;
+    position: relative;
+    top: 65px;
+    width: 100%;
+    z-index: 500;
+    text-shadow: 1px 1px 6px #FFFDFD;
+}
+
+#circleone {
+    left: 42px;
+    /* top: -2px; */
+    /* margin-bottom: 31px; */
+    /* margin-top: 20px; */
+}
+
+#ourvaluedescription {
+    font-size: 14;
+    letter-spacing: 1px;
+    position: relative;
+    /* left: calc(50%- 168px); */
+}
+
+#IGSlogo {
+    position: absolute;
+    top: 6px;
+    left: 10;
+    z-index: 1000;
+}
+
+#valuedescriptioncontainerinnovation {
+    position: relative;
+    text-align: center;
+    width: 40%;
+    top: -130;
+    font-size: 12px;
+    left: 1%;
+    /* margin-left: 25px; */
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px 0px;
+    color: #524C4C;
+    z-index: 500;
+    display: block;
+}
+
+#valuedescriptioncontainerglobality {
+    position: relative;     
+    text-align: center;     
+    width: 40%;          
+    font-size: 12px;     
+    /* right: 1%; */
+    /* margin-left: 710px; */     
+    padding: 12px;     
+    background-color: rgb(255, 255, 255);     
+    box-shadow: 0px 1px 2px 0px;     
+    color: #524C4C;
+    z-index: 500;
+    /* display: block; */
+    top: -150;
+    left: 57%;
+}
+
+#valuedescriptioncontainersustainability {
+    position: relative;
+    text-align: center;
+    width: 40%;
+    top: -135;
+    font-size: 12px;
+    left: 1%;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px 0px;
+    color: #524C4C;
+    z-index: 500;
+    display: block;
+}
+
+
+#bigtextcontainer {
+    position: fixed;
+    width: 100%;
+    height: 300px;
+    top: 350;
+    font-size: 40;
+    text-align: right;
+    display: block;
+}
+
+#INNOVATIONTEXT {
+    position: relative;
+    right: 10px;
+    text-align: right;
+    top: -45%;
+}
+
+#GLOBILITYTEXT {
+    position: relative;
+    top: -27%;
+    /* right: 900; */
+    text-align: left;
+}
+
+#SUSTAINABILITY {
+    position: relative;
+    right: 10;
+    top: 0%;
+}
+
+
+
+#all-description-container {
+    height: 20px;
+}
